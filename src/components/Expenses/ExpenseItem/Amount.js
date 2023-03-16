@@ -2,7 +2,7 @@ const Amount = (props) => {
     const amount = props.amount
 
     return(
-        <div>{amount}</div>
+        <div className="expense-item__price">{amount}</div>
     );
 }
 
